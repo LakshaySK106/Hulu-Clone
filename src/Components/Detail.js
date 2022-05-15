@@ -92,9 +92,7 @@ const Detail = ({ watchList, setWatchList }) => {
 							className="btn btn-play"
 							onClick={() => {
 								alert(
-									`Did you seriously think you can watch ${
-										current.title || current.name
-									} for free?? 🤣🤣 Come on now!!!`
+									`${current.title || current.name} is not available for free!`
 								);
 							}}
 						>
